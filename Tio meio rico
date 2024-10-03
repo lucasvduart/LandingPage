@@ -1,0 +1,131 @@
+<!DOCTYPE html>/
+<html lang="pt-BR"></html>
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        
+        .header-img {
+            background: url('/mnt/data/book_with_crown.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3em;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .card {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-img">
+        <h1>Tio Meio Rico - Aprenda com os Melhores dos Melhores</h1>
+    </header>
+
+    <section class="container my-5">
+        <h2>Cadraste-se Agora</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço Completo</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Digite seu endereço">
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="cep">CEP</label>
+                        <input type="text" class="form-control" id="cep" placeholder="Digite seu CEP">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="usuario">Usuário</label>
+                <input type="text" class="form-control" id="usuario" placeholder="Escolha um nome de usuário">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="Escolha uma senha">
+            </div>
+            <div class="form-group">
+                <label for="curso">Curso</label>
+                <select class="form-control" id="curso">
+                    <option>Engenaharia de Software</option>
+                    <option>Sistemas de Informação</option>
+                    <option>Engenharia da Computação</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="estado">Estado</label>
+                <input type="text" class="form-control" id="estado" placeholder="Digite seu estado">
+            </div>
+            <div class="form-group">
+                <label for="pais">País</label>
+                <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone">
+            </div>
+            <div class="form-group">
+                <label for="idade">Idade</label>
+                <input type="number" class="form-control" id="idade" placeholder="Digite sua idade">
+            </div>
+            <div class="form-group">
+                <label for="pagamento">Forma de Pagamento</label>
+                <select class="form-control" id="pagamento">
+                    <option>Boleto</option>
+                    <option>Pix</option>
+                    <option>Pagseguro</option>
+                    <option>PayPal</option>
+                    <option>Visa</option>
+                    <option>HiperCard</option>
+                    <option>MasterCard</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <section class="container my-5">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">engenharia de Software</h5>
+                <p class="card-text">Este é o nosso curso mais popular! Inscreva-se agora e aproveite!</p>
+                <a href="#" class="btn btn-success">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Tio Meio Rico. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
